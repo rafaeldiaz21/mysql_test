@@ -28,6 +28,7 @@ visitante as (
 select
     equipo.id_equipos,
     equipo.nombre,
+    (goles_local + goles_visitante) AS goles_total,
     goles_local,
     goles_visitante
 from

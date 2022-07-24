@@ -10,6 +10,7 @@ type PartidosVisitantePorEquipo struct {
 type Goles struct {
 	IdEquipos      int    `json:"id_equipos"`
 	Nombre         string `json:"nombre"`
+	GolesTotal     int    `json:"goles_total"`
 	GolesLocal     int    `json:"goles_local"`
 	GolesVisitante int    `json:"goles_visitante"`
 }
